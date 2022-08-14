@@ -1,0 +1,105 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .single-service {
+        padding: 40px;
+    }
+
+    .single-client p {
+        font-size: 15px;
+    }
+
+    .news-author span {
+        font-size: 12px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .about-img img, .skill-img img {
+        width: 100%;
+    }
+
+    .about-content, .skill-img {
+        margin-left: 0;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .logo-area .row {
+        flex-direction: row-reverse;
+    }
+
+    .menu-box {
+        padding: 24px 0;
+    }
+
+    .slider-content h1 {
+        font-size: 30px;
+    }
+
+    .slider-height {
+        min-height: 600px;
+    }
+
+    .about-img img, .skill-img img {
+        width: 100%;
+    }
+
+    .about-content, .skill-img {
+        margin-left: 0;
+    }
+
+    .single-client p {
+        font-size: 15px;
+    }
+
+    .client-area .slick-arrow {
+        top: 170px;
+    }
+
+    .footer-top-text, .footer-number {
+        text-align: center!important;
+    }
+
+    .widget-order-1 {
+        order: 1;
+    }
+    .widget-order-2 {
+        order: 2;
+    }
+    .widget-order-3 {
+        order: 3;
+    }
+    .widget-order-4 {
+        order: 4;
+    }
+
+    .widget-sm-text-center {
+        text-align: center;
+    }
+
+    .header-contact i {
+        background: none;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+/* .container {width:450px} */
+}
